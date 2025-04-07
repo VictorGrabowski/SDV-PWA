@@ -54,7 +54,6 @@ const CreateRegistration: FC = () => {
           value={company}
           onChange={(e) => setCompany(e.target.value)}
         />
-      </form>
       <div className="button-group">
         <Button
           variant="outlined"
@@ -73,6 +72,7 @@ const CreateRegistration: FC = () => {
           Enregistrer
         </Button>
       </div>
+      </form>
     </div>
   );
 };
